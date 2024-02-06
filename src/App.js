@@ -1,7 +1,21 @@
+import Footer from "./components/Footer.jsx";
+import Hero from "./components/Hero.jsx";
+import Navbar from "./components/Navbar.jsx";
+import ImageSlider from "./components/ImageSlider.jsx";
+import Offers from "./components/Offers.jsx";
+import Plan from "./components/Plan.jsx";
+import Rooms from "./components/Rooms.jsx";
+
 function App() {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Navbar />
+      <Hero />
+      <Offers />
+      <Plan />
+      <Rooms />
+      <ImageSlider />
+      <Footer />
     </div>
   );
 }
